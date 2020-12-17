@@ -10,11 +10,11 @@ public class MoneyTest {
     void testMultiplication() {
         Dollar coin = new Dollar(5);
         Dollar product = coin.times(2);
-        assertEquals(10, product.amount);
+        assertEquals(new Dollar(10), product);
         product = coin.times(3);
-        assertEquals(15, product.amount);
+        assertEquals(new Dollar(15), product);
         product = coin.times(4);
-        assertEquals(20, product.amount);
+        assertEquals(new Dollar(20), product);
     }
 
     @Test
