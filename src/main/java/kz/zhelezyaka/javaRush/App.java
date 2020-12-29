@@ -1,4 +1,4 @@
-package kz.zhelezyaka;
+package kz.zhelezyaka.javaRush;
 
 public class App {
     public static void main(String[] args) {
